@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
     <meta name="twitter:tittle" content="Formalario de cadastro">
 
 </head>
+
 <body>
     <form>
         <label for="nome">Nome</label>
@@ -32,7 +34,23 @@
             <option value="tres">Tres</option>
             <option value="quatro">Quatro</option>
         </select>
+
+        <label for="senha">Senha</label>
+        <input type="password" placeholder="Digite sua Senha aqui...">
+
+        <label for="senhaConfirma">Confirmar Senha</label>
+        <input type="password" placeholder="Digite sua senha novamente aqui...">
+
+        <p>Deseja receber novidades em seu e-mail?</p>
+        <label for="receberEmail">
+            <label for="sim">Sim</label>
+            <input type="radio" name="sim" id="sim">
+            <label for="nao">Não</label>
+            <input type="radio" name="nao" id="nao">
+        </label>
+
         <button type="submit">Cadastrar</button>
     </form>
 </body>
+
 </html>
