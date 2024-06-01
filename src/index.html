@@ -11,9 +11,28 @@
     <meta name="og:title" content="Formulario de cadastro">
     <meta name="og:description" content="Uma pagina de cadastro em HMTL">
     <meta name="twitter:tittle" content="Formalario de cadastro">
-    
+
 </head>
 <body>
-    
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" maxlength="20" id="nome">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="texto">Descricao</label>
+        <textarea name="texto" id="texto" cols="28" rows="8" placeholder="Fale mais sobre você aqui..."></textarea>
+
+        <label for="modulo">Modulo</label>
+        <select name="modulo" id="modulo">
+            <option value="">Seleciono o modulo</option>
+            <option value="um">Um</option>
+            <option value="dois">Dois</option>
+            <option value="tres">Tres</option>
+            <option value="quatro">Quatro</option>
+        </select>
+        <button type="submit">Cadastrar</button>
+    </form>
 </body>
 </html>
