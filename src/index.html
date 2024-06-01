@@ -17,37 +17,51 @@
 
 <body>
     <form>
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" maxlength="20" id="nome">
+        <div>
+            <div><label for="nome">Nome</label></div>
+            <input type="text" name="nome" maxlength="20" id="nome">
+        </div>
 
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <div>
+            <div><label for="email">Email</label></div>
+            <input type="email" name="email" id="email">
+        </div>
 
-        <label for="texto">Descricao</label>
-        <textarea name="texto" id="texto" cols="28" rows="8" placeholder="Fale mais sobre você aqui..."></textarea>
+        <div>
+            <div><label for="texto">Descricao</label></div>
+            <textarea name="texto" id="texto" cols="28" rows="8" placeholder="Fale mais sobre você aqui..."></textarea>
+        </div>
 
-        <label for="modulo">Modulo</label>
-        <select name="modulo" id="modulo">
-            <option value="">Seleciono o modulo</option>
-            <option value="um">Um</option>
-            <option value="dois">Dois</option>
-            <option value="tres">Tres</option>
-            <option value="quatro">Quatro</option>
-        </select>
+        <div>
+            <div><label for="modulo">Modulo</label></div>
+            <select name="modulo" id="modulo">
+                <option value="">Seleciono o modulo</option>
+                <option value="um">Um</option>
+                <option value="dois">Dois</option>
+                <option value="tres">Tres</option>
+                <option value="quatro">Quatro</option>
+            </select>
+        </div>
 
-        <label for="senha">Senha</label>
-        <input type="password" placeholder="Digite sua Senha aqui...">
+        <div>
+            <div><label for="senha">Senha</label></div>
+            <input type="password" placeholder="Digite sua Senha aqui...">
+        </div>
 
-        <label for="senhaConfirma">Confirmar Senha</label>
-        <input type="password" placeholder="Digite sua senha novamente aqui...">
+        <div>
+            <div><label for="senhaConfirma">Confirmar Senha</label></div>
+            <input type="password" placeholder="Digite sua senha novamente aqui...">
+        </div>
 
-        <p>Deseja receber novidades em seu e-mail?</p>
-        <label for="receberEmail">
-            <label for="sim">Sim</label>
-            <input type="radio" name="sim" id="sim">
-            <label for="nao">Não</label>
-            <input type="radio" name="nao" id="nao">
-        </label>
+        <div>
+            <p>Deseja receber novidades em seu e-mail?</p>
+            <label for="receberEmail">
+                <label for="sim">Sim</label>
+                <input type="radio" name="sim" id="sim">
+                <label for="nao">Não</label>
+                <input type="radio" name="nao" id="nao">
+            </label>
+        </div>
 
         <button type="submit">Cadastrar</button>
     </form>
