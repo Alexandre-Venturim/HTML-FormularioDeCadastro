@@ -19,7 +19,7 @@
     <form>
         <div>
             <div><label for="nome">Nome</label></div>
-            <input type="text" name="nome" maxlength="20" id="nome">
+            <input type="text" name="nome" maxlength="20" id="nome" required>
         </div>
 
         <div>
@@ -29,12 +29,12 @@
 
         <div>
             <div><label for="texto">Descricao</label></div>
-            <textarea name="texto" id="texto" cols="28" rows="8" placeholder="Fale mais sobre você aqui..."></textarea>
+            <textarea required name="texto" id="texto" cols="28" rows="8" placeholder="Fale mais sobre você aqui..."></textarea>
         </div>
 
         <div>
             <div><label for="modulo">Modulo</label></div>
-            <select name="modulo" id="modulo">
+            <select required name="modulo" id="modulo">
                 <option value="">Seleciono o modulo</option>
                 <option value="um">Um</option>
                 <option value="dois">Dois</option>
@@ -45,19 +45,19 @@
 
         <div>
             <div><label for="senha">Senha</label></div>
-            <input type="password" placeholder="Digite sua Senha aqui...">
+            <input required type="password" placeholder="Digite sua Senha aqui...">
         </div>
 
         <div>
             <div><label for="senhaConfirma">Confirmar Senha</label></div>
-            <input type="password" placeholder="Digite sua senha novamente aqui...">
+            <input required type="password" placeholder="Digite sua senha novamente aqui...">
         </div>
 
         <div>
             <p>Deseja receber novidades em seu e-mail?</p>
-            <label for="receberEmail">
+            <label required for="receberEmail">
                 <label for="sim">Sim</label>
-                <input type="radio" name="sim" id="sim">
+                <input  type="radio" name="sim" id="sim">
                 <label for="nao">Não</label>
                 <input type="radio" name="nao" id="nao">
             </label>
